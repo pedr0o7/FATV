@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 300;
+    padding: 300;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background-color: white;
+}
+
+
+.Cabecalho {
+    align-items: center;
+    
+ 
+    
+
+}
+.Cabecalho-imagem{
+    align-items: center;
+ 
+    
+}
+.Cabecalho-menu{
+    align-items: center;
+    background-color: #6eb47d;
+    
+}
