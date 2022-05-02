@@ -1,207 +1,53 @@
 <!DOCTYPE html>
-<html class="no-js" lang="pt-BR">
-
-<head>
-
-    <!--Meta dados-->
-    <meta charset="UTF-8">
-    <!--Indicar os caracteres do codigo-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Codigo adaptavel para varias plataformas-->
-    <meta name="description" content="Site de vendas da Feira de artesanato da torre de TV">
-    <title>FATV - Feira de artesanato da torre de TV</title>
-
-    <!--Titulo da aba-->
-    <link rel="icon" type="image/x-icon" href="/imagens/Logo1.svg">
-
-    <script src="/js/style.js"></script>
-    <!--Arrumar esse codigo css-->
-    <link rel="stylesheet" href="/css/min.css">
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-
-    <!--Arrumar esse codigo css-->
-    <link rel="stylesheet" href="/css/min.css">
-    <!--Arrumar esse codigo css-->
-    <link rel="stylesheet" href="/css/min.css">
-    <script src="/js/min.js"></script>
-
-    <script src="/js/font.js"></script>
-
-</head>
-
+<html lang="pt-br">
+    <head>
+        <!--Meta dados-->
+        <meta charset="UTF-8">
+        <!--Indicar os caracteres do codigo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Codigo adaptavel para varias plataformas-->
+        <meta name="description" content="Site de vendas da Feira de artesanato da torre de TV">
+        <title>FATV - Feira de artesanato da torre de TV</title>
+        <!--Titulo da aba-->
+        <link rel="icon" type="image/x-icon" href="../img/Logo1.svg">
+        <link rel="stylesheet" href="../css/reset.min.css">
+        <link rel="stylesheet" href="../css/default.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animation.css">
+    </head>
+    
 <body>
+    <a  href="index.html" title="FATV"  >
+        <img Class="Cabecalho-imagem" src="../img/logo.svg" alt="FATV" />
+    </a>
+    <div class="container">
     <!-- Navigation -->
-    <header>
-        <div class="fixed-top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <a href="index.html" title="FATV" class="navbar-brand">
-                        <img src="/imagens/logo.svg" class="store-image" alt="FATV" />
-                    </a>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContainer" aria-controls="navbarContainer" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarContainer">
-                        <form class="d-lg-none d-md-block search_mini_form" method="get" action="/br/search">
-
-                            <div class="input-group mb-3">
-                                <input type="text" value="" name="q" class="form-control form-control-sm" onFocus="javascript:this.value=''" placeholder="Pesquisar produtos" />
-                                <button type="submit" class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
-                            </div>
-                        </form>
-                        <ul id="navbarContainerMobile" class="navbar-nav d-lg-none">
-
-                            <li class="nav-item  ">
-                                <a href="/br/" title="Inicio" class="level-1 trsn nav-link">Início</a>
-
-                            </li>
-
-
-                            <li class="nav-item dropdown ">
-                                <a href="/br/Box.html" title="Box" class="dropdown-toggle level-1 trsn nav-link" data-toggle="dropdown">Box</a>
-
-                                <ul class="dropdown-menu multi-level">
-
-                                    <li class="nav-item  ">
-                                        <a href="/br/Box.html" title="Box" class="level-1 trsn nav-link">Box</a></li>
-                                    <li class="nav-item ">
-                                        <a href="/br/Produtos.html" title="Produtos" class="level-1 trsn nav-link">Produtos</a>
-                                        <li class="nav-item  ">
-                                            <a href="/br/alimentacao.html" title="alimentacao" class="level-1 trsn nav-link">Praça de alimentação</a>
-
-                                        </li>
-                                    </li>
-                                </ul>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Sobre.html" title="Sobre a feira" class="level-1 trsn nav-link">Sobre</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Agenda.html" title="Agenda" class="level-1 trsn nav-link">Agenda</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Contactos.html" title="Contactos" class="level-1 trsn nav-link">Contactos</a>
-
-                            </li>
-
-
-                        </ul>
-                        <ul class="nav navbar-nav float-right nav-top">
-
-
-                            <li>
-                                <a id="cart-link" href="/br/cart.html" class="trsn nav-link" title="Carrinho">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    <span id="nav-bar-cart"><span class="cart-size">0</span> Produto(s) </span>
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a href="/br/customer/login.html" id="login-link" class="trsn nav-link" title="Login">
-                                    <i class="fas fa-user"></i>
-                                    <span class="customer-name"> </span> Entrar/Cadastrar
-                                    </span>
-                                </a>
-                            </li>
-
-
-                        </ul>
-                        <form class="navbar-form float-right form-inline d-none d-lg-flex search_mini_form" method="get" action="/br/search">
-                            <input type="text" value="" name="q" class="form-control form-control-sm" onFocus="javascript:this.value=''" placeholder="Pesquisar produtos
-                        " />
-                            <button type="submit" class="btn btn-secondary btn-sm"><i class="fas fa-search"></i></button>
-                        </form>
-                        <ul class="social list-inline d-lg-none text-center">
-
-
-
-
-
-
-
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- BARRA DINAMICA -->
-            <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #6eb47d">
-                <div class="container">
-                    <div class="collapse navbar-collapse" id="navbarsContainer-2">
-                        <ul class="navbar-nav mr-auto mx-auto">
-
-                            <li class="nav-item">
-                                <a href="/br/" title="Inicio" class="level-1 trsn nav-link">Início</a>
-
-
-                            </li>
-
-
-                            <li class="nav-item dropdown ">
-                                <a href="/br/Box.html" title="Box" class="dropdown-toggle level-1 trsn nav-link" data-toggle="dropdown">Box</a>
-
-                                <ul class="dropdown-menu multi-level">
-
-                                    <li class="nav-item  ">
-                                        <a href="/br/Box.html" title="Box" class="level-1 trsn nav-link">Box</a></li>
-                                    <li class="nav-item  ">
-                                        <a href="/br/Produtos.html" title="Produtos" class="level-1 trsn nav-link">Produtos</a></li>
-                                    <li class="nav-item  ">
-                                        <a href="/br/alimentacao.html" title="Praça de alimentação" class="level-1 trsn nav-link">Praça de alimentação</a>
-
-                                    </li>
-
-
-                                </ul>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Sobre.html" title="Sobre a feira" class="level-1 trsn nav-link">Sobre</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Agenda.html" title="Agenda" class="level-1 trsn nav-link">Agenda</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Contactos.html" title="Contactos" class="level-1 trsn nav-link">Contactos</a>
-
-                            </li>
-
-
-                        </ul>
-
-                        <ul class="social navbar-toggler-right list-inline">
-
-
-
-
-
-
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
+        <header>
+            <div class="barra_menu barra_menu_fundo">
+
+            </div>
+            <div class="barra_menu barra_menu_front">
+                <nav class="header">
+                    <ul>
+                        <li><a href="/br/" title="Inicio">Início</a></li>
+                        <li><a href="/br/Sobre.html" title="Sobre a feira">A Feira</a></li>
+                        <li><a href="/br/Agenda.html" title="Agenda">Eventos</a></li>
+                        <li><a href="/br/Blog.html" title="Contactos">Blog</a></li>
+                        <li><a href="/br/Box.html" title="Box" >Box</a>
+                            <ul>
+                            <li><a href="/br/Produtos.html" title="Produtos">Produtos</a></li>
+                            <li><a href="/br/alimentacao.html" title="Praça de alimentação">Alimentação</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/br/Contactos.html" title="Contactos">Contatos</a></li>
+
+                    </ul>
+
+                </nav>
+            </div>
+           
+        </header>
+        
     <!-- Page Content -->
     <main>
         <!--
@@ -246,52 +92,19 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <hr>
-        <div class="container">
-            <footer>
-                <div class="row">
-                    <div class="col-12 col-md-6 order-2 order-md-1">
-                        <p class="powered-by">&copy; 2022. Todos os direitos reservados. Distribuído por <a href='https://github.com/pedr0o7/FATV' title='Crear Tienda Online' target='_blank' rel='nofollow noopener'>Pedro Rafael, Davi Galati, Eric VInicios</a>.</p>
-                    </div>
-                    <div class="col-12 col-md-6 order-1 order-md-2">
-                        <ul class="payment">
-
-                            <li><span><img src="/imagens/card1.svg" alt="Visa"></span></li>
-                            <li><span><img src="/imagens/card2.svg" alt="Mastercard"></span></li>
-                            <li><span><img src="/imagens/card3.svg" alt="American Express"></span></li>
-                            <li><span><img src="/imagens/card4.svg" alt="Paypal"></span></li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-            </footer>
-
+    <footer class="footer">
+        <address>
+            Criação e Desenvolvimento: <a href="https://github.com/pedr0o7">Pedro Rafael, Davi Galati, Eric VInicios</a> &copy; 2021 </a>
+        </address>
+        
+        <div class="fim"><p>
+            HORÁRIO DE FUNCIONAMENTO<br>
+                Quinta a Domingo<br>
+                9 horas até 17 horas
+            </p>
         </div>
     </footer>
-    <!-- /.container -->
-
-    <!-- Css -->
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/min.js"></script>
-    <script src="/js/min.js"></script>
-
-    <!-- Script to Activate Tooltips -->
-    <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip()
-            $('.carousel').carousel()
-        })
-    </script>
-
-    <script src="/js/min.js"></script>
-    <script src="js/main.js"></script>
+</div>
 
 </body>
-
 </html>

@@ -1,408 +1,108 @@
 <!DOCTYPE html>
-<html class="no-js" lang="pt-BR">
-
-<head>
-
-    <!--Meta dados-->
-    <meta charset="UTF-8">
-    <!--Indicar os caracteres do codigo-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Codigo adaptavel para varias plataformas-->
-    <meta name="description" content="Site de vendas da Feira de artesanato da torre de TV">
-    <title>FATV - Feira de artesanato da torre de TV</title>
-
-    <!--Titulo da aba-->
-    <link rel="icon" type="image/x-icon" href="/imagens/Logo1.svg">
-
-    <script src="/js/style.js"></script>
-    <!--Arrumar esse codigo css-->
-    <link rel="stylesheet" href="/css/min.css">
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-
-    <!--Arrumar esse codigo css-->
-    <link rel="stylesheet" href="/css/min.css">
-    <!--Arrumar esse codigo css-->
-    <link rel="stylesheet" href="/css/min.css">
-    <script src="/js/min.js"></script>
-
-    <script src="/js/font.js"></script>
-
-</head>
-
+<html lang="pt-br">
+    <head>
+        <!--Meta dados-->
+        <meta charset="UTF-8">
+        <!--Indicar os caracteres do codigo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Codigo adaptavel para varias plataformas-->
+        <meta name="description" content="Site de vendas da Feira de artesanato da torre de TV">
+        <title>FATV - Feira de artesanato da torre de TV</title>
+        <!--Titulo da aba-->
+        <link rel="icon" type="image/x-icon" href="../img/Logo1.svg">
+        <link rel="stylesheet" href="../css/reset.min.css">
+        <link rel="stylesheet" href="../css/default.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animation.css">
+    </head>
+    
 <body>
+    <a  href="index.html" title="FATV"  >
+        <img Class="Cabecalho-imagem" src="../img/logo.svg" alt="FATV" />
+    </a>
+    <div class="container">
     <!-- Navigation -->
-    <header>
-        <div class="fixed-top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <a href="index.html" title="FATV" class="navbar-brand">
-                        <img src="/imagens/logo.svg" class="store-image" alt="FATV" />
-                    </a>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContainer" aria-controls="navbarContainer" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarContainer">
-                        <form class="d-lg-none d-md-block search_mini_form" method="get" action="/br/search">
-
-                            <div class="input-group mb-3">
-                                <input type="text" value="" name="q" class="form-control form-control-sm" onFocus="javascript:this.value=''" placeholder="Pesquisar produtos" />
-                                <button type="submit" class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
-                            </div>
-                        </form>
-                        <ul id="navbarContainerMobile" class="navbar-nav d-lg-none">
-
-                            <li class="nav-item  ">
-                                <a href="/br/" title="Inicio" class="level-1 trsn nav-link">Início</a>
-
-                            </li>
-
-
-                            <li class="nav-item dropdown ">
-                                <a href="/br/Box.html" title="Box" class="dropdown-toggle level-1 trsn nav-link" data-toggle="dropdown">Box</a>
-
-                                <ul class="dropdown-menu multi-level">
-
-                                    <li class="nav-item  ">
-                                        <a href="/br/Box.html" title="Box" class="level-1 trsn nav-link">Box</a></li>
-                                    <li class="nav-item ">
-                                        <a href="/br/Produtos.html" title="Produtos" class="level-1 trsn nav-link">Produtos</a>
-                                        <li class="nav-item  ">
-                                            <a href="/br/alimentacao.html" title="alimentacao" class="level-1 trsn nav-link">Praça de alimentação</a>
-
-                                        </li>
-                                    </li>
-                                </ul>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Sobre.html" title="Sobre a feira" class="level-1 trsn nav-link">Sobre</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Agenda.html" title="Agenda" class="level-1 trsn nav-link">Agenda</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Contactos.html" title="Contactos" class="level-1 trsn nav-link">Contactos</a>
-
-                            </li>
-
-
-                        </ul>
-                        <ul class="nav navbar-nav float-right nav-top">
-
-
-                            <li>
-                                <a id="cart-link" href="/br/cart.html" class="trsn nav-link" title="Carrinho">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    <span id="nav-bar-cart"><span class="cart-size">0</span> Produto(s) </span>
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a href="/br/customer/login.html" id="login-link" class="trsn nav-link" title="Login">
-                                    <i class="fas fa-user"></i>
-                                    <span class="customer-name"> </span> Entrar/Cadastrar
-                                    </span>
-                                </a>
-                            </li>
-
-
-                        </ul>
-                        <form class="navbar-form float-right form-inline d-none d-lg-flex search_mini_form" method="get" action="/br/search">
-                            <input type="text" value="" name="q" class="form-control form-control-sm" onFocus="javascript:this.value=''" placeholder="Pesquisar produtos
-                        " />
-                            <button type="submit" class="btn btn-secondary btn-sm"><i class="fas fa-search"></i></button>
-                        </form>
-                        <ul class="social list-inline d-lg-none text-center">
-
-
-
-
-
-
-
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- BARRA DINAMICA -->
-            <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #6eb47d">
-                <div class="container">
-                    <div class="collapse navbar-collapse" id="navbarsContainer-2">
-                        <ul class="navbar-nav mr-auto mx-auto">
-
-                            <li class="nav-item">
-                                <a href="/br/" title="Inicio" class="level-1 trsn nav-link">Início</a>
-
-
-                            </li>
-
-
-                            <li class="nav-item dropdown ">
-                                <a href="/br/Box.html" title="Box" class="dropdown-toggle level-1 trsn nav-link" data-toggle="dropdown">Box</a>
-
-                                <ul class="dropdown-menu multi-level">
-
-                                    <li class="nav-item  ">
-                                        <a href="/br/Box.html" title="Box" class="level-1 trsn nav-link">Box</a></li>
-                                    <li class="nav-item  ">
-                                        <a href="/br/Produtos.html" title="Produtos" class="level-1 trsn nav-link">Produtos</a></li>
-                                    <li class="nav-item  ">
-                                        <a href="/br/alimentacao.html" title="Praça de alimentação" class="level-1 trsn nav-link">Praça de alimentação</a>
-
-                                    </li>
-
-
-                                </ul>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Sobre.html" title="Sobre a feira" class="level-1 trsn nav-link">Sobre</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Agenda.html" title="Agenda" class="level-1 trsn nav-link">Agenda</a>
-
-                            </li>
-
-
-                            <li class="nav-item  ">
-                                <a href="/br/Contactos.html" title="Contactos" class="level-1 trsn nav-link">Contactos</a>
-
-                            </li>
-
-
-                        </ul>
-
-                        <ul class="social navbar-toggler-right list-inline">
-
-
-
-
-
-
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
+        <header>
+            <div class="barra_menu barra_menu_fundo">
+
+            </div>
+            <div class="barra_menu barra_menu_front">
+                <nav class="header">
+                    <ul>
+                        <li><a href="/br/" title="Inicio">Início</a></li>
+                        <li><a href="/br/Sobre.html" title="Sobre a feira">A Feira</a></li>
+                        <li><a href="/br/Agenda.html" title="Agenda">Eventos</a></li>
+                        <li><a href="/br/Blog.html" title="Contactos">Blog</a></li>
+                        <li><a href="/br/Box.html" title="Box" >Box</a>
+                            <ul>
+                            <li><a href="/br/Produtos.html" title="Produtos">Produtos</a></li>
+                            <li><a href="/br/alimentacao.html" title="Praça de alimentação">Alimentação</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/br/Contactos.html" title="Contactos">Contatos</a></li>
+
+                    </ul>
+
+                </nav>
+            </div>
+           
+        </header>
+        
     <!-- Page Content -->
-    <main>
-        <div id='components'>
-            <div id='component-76144'>
-                <div class="container-fluid px-0">
-                    <div class="component_slider" id="component_slider-76144">
+        <main class="main">
 
-
-
-                        <!-- Carousel Empty -->
-                        <div class="component_slider-76144 owl-carousel">
-
-                            <div class="item">
-
-                                <div class="layer" style="background-color: #29123f; opacity: 0.4;"></div>
-                                <div class="carousel-info">
-                                    <div class="carousel-info-inner">
-                                        <h2>Bem vindo a Feira de artesanato da Torre de TV</h2>
-                                    </div>
-                                </div>
-
-                                <img src="/imagens/Fatv.svg" alt="Bem vindo a Feira de artesanato da Torre de TV">
-
-
-                            </div>
-
-                            <div class="item">
-
-                                <div class="layer" style="background-color: #29123f; opacity: 0.4;"></div>
-                                <div class="carousel-info">
-                                    <div class="carousel-info-inner">
-                                        <h2>No dia 2 de Setembro</h2>
-                                        <a href="/br/Agenda.html" class="btn btn-primary" title="Add your own Sliders">Acesse nossa programação</a>
-                                    </div>
-                                </div>
-
-                                <img src="/imagens/Agenda1.svg" alt="Forro IóIó no dia 2 de setembro">
-
-
-                            </div>
-                            <div class="item">
-
-                                <div class="layer" style="background-color: #29123f; opacity: 0.4;"></div>
-                                <div class="carousel-info">
-                                    <div class="carousel-info-inner">
-                                        <h2>No dia 6 de outubro</h2>
-                                        <a href="/br/Agenda.html" class="btn btn-primary" title="Add your own Sliders">Acesse nossa programação</a>
-                                    </div>
-                                </div>
-
-                                <img src="/imagens/Agenda2.svg" alt="Halloween no dia 6 de outubro">
-
-
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-
-            <script>
-                $('.component_slider-76144').owlCarousel({
-                    items: 1,
-                    autoHeight: true,
-                    loop: true,
-                    dots: false,
-                    margin: 0,
-                    nav: true,
-                    autoplay: true,
-                    autoplayTimeout: 3000,
-                    autoplayHoverPause: true,
-                    navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"]
-                })
-            </script>
-
-        </div>
-        <div id='component-76145'>
-            <div id="featured-products-76145" class="container">
-                <!-- Products Section -->
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="page-header">Produtos em Destaque</h2>
-                    </div>
-
-
-                    <!-- Featured Products -->
-
-                    <div class="col-md-3 col-6 product-block">
-
-                        <a href="/br/aguia-de-Pedra.html"><img class="img-fluid img-portfolio img-hover mb-3" src="/imagens/aguia_pedra.svg" srcset="/imagens/aguia_pedra.svg 1x, /imagens/aguia_pedra.svg 2x" alt="Águia de Pedra" /></a>
-
-                        <div class="caption">
-                            <h3><a href="/br/aguia-de-Pedra.html">Águia de Pedra</a></h3>
-                            <div class="price-mob mb-2">
-
-
-                                R$100,00
-
-
-                            </div>
-                            <div class="clearfix"></div>
-
-
-
-                        </div>
-
-                    </div>
-
-                    <!-- /.row -->
-                </div>
-            </div>
-            <div id='component-76146'>
-                <div id="latest-products-76146" class="container">
-                    <!-- Products Section -->
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="page-header">Produtos Recentes</h2>
-                        </div>
-
-
-                        <!-- Latest Products -->
-
-                        <div class="col-md-3 col-6 product-block">
-
-                            <a href="/br/aguia-de-Pedra.html"><img class="img-fluid img-portfolio img-hover mb-3" src="/imagens/aguia_pedra.svg" srcset="/imagens/aguia_pedra.svg 1x, /imagens/aguia_pedra.svg 2x" alt="Águia de Pedra" /></a>
-
-                            <div class="caption">
-                                <h3><a href="/br/aguia-de-Pedra.html">Águia de Pedra</a></h3>
-                                <div class="price-mob mb-2">
-
-
-                                    R$100,00
-
-
-                                </div>
-                                <div class="clearfix"></div>
-
-
-
-                            </div>
-
-                        </div>
-
-                        <!-- /.row -->
-                    </div>
-
+            <section class="galery">
+                <div class="fotos">
+                    <img src="../img/Fatv 1.svg" alt="Foto 1">
+                    <img src="../img/Agenda1.svg" alt="Foto 2">
+                    <img src="../img/Agenda2.svg" alt="Foto 3">
+                    <img src="../img/Agenda2.svg" alt="Foto 4">
+                    <img src="../img/Fatv 1.svg" alt="Foto 1">
                 </div>
 
-            </div>
-        </div>
-    </main>
+                <div class="borda_main">
+                    <h1 >
+                        Sobre a Feira
+                    </h1>
+                    <br>
+                    <div style="float: left">
+                        <img src="../img/feira-da-torre-de-tv 1.svg" alt="img da feira">
+                    </div>
+                    <div>
+                        <p>A Feira de Artesanato da Torre de TV, mais conhecida como Feira da Torre e anteriormente como Feirinha Hippie, é realizada em Brasília, de quinta a domingo. Fundada em maio de 1964, é considerada um dos principais pontos turísticos da capital federal brasileira.</p>
+                    </div>                    
+                </div>
+                <div class="borda_main_2">
+                    <h1 >
+                        Sugestões
+                    </h1>
+                    <br>
+                    <form class="form" method="POST" action="../php/email.php">
+                        <input class="field" name="name" placeholder="Nome">
+                        <input class="field" name="email" placeholder="E-mail">
+                        <textarea class="field" name="message" placeholder="digite sua sugestão aqui."></textarea>
+                        <input class="field" type="submit" value="Enviar">
+                    </form>                   
+                </div>
+            </section>
+
+
+        </main>
 
     <!-- Footer -->
-    <footer>
-        <hr>
-        <div class="container">
-            <footer>
-                <div class="row">
-                    <div class="col-12 col-md-6 order-2 order-md-1">
-                        <p class="powered-by">&copy; 2022. Todos os direitos reservados. Distribuído por <a href='https://github.com/pedr0o7/FATV' title='Crear Tienda Online' target='_blank' rel='nofollow noopener'>Pedro Rafael, Davi Galati, Eric VInicios</a>.</p>
-                    </div>
-                    <div class="col-12 col-md-6 order-1 order-md-2">
-                        <ul class="payment">
-
-                            <li><span><img src="/imagens/card1.svg" alt="Visa"></span></li>
-                            <li><span><img src="/imagens/card2.svg" alt="Mastercard"></span></li>
-                            <li><span><img src="/imagens/card3.svg" alt="American Express"></span></li>
-                            <li><span><img src="/imagens/card4.svg" alt="Paypal"></span></li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-            </footer>
-
-        </div>
-    </footer>
-    <!-- /.container -->
-
-    <!-- Css -->
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/min.js"></script>
-    <script src="/js/min.js"></script>
-
-    <!-- Script to Activate Tooltips -->
-    <script>
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip()
-            $('.carousel').carousel()
-        })
-    </script>
-
-    <script src="/js/min.js"></script>
-    <script src="js/main.js"></script>
-
+        <footer class="footer">
+            <address>
+                Criação e Desenvolvimento: <a href="https://github.com/pedr0o7">Pedro Rafael, Davi Galati, Eric VInicios</a> &copy; 2021 </a>
+            </address>
+            
+            <div class="fim"><p>
+                HORÁRIO DE FUNCIONAMENTO<br>
+                    Quinta a Domingo<br>
+                    9 horas até 17 horas
+                </p>
+            </div>
+        </footer>
+    </div>
+    
 </body>
-
 </html>

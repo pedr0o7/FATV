@@ -1,0 +1,193 @@
+.Cabecalho-imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 424px;
+    height: 215px;
+    top: 0px;
+
+}
+.barra_menu {
+    position: absolute;
+    width: 1920px;
+    height: 40px;
+    left: 0px;
+    top: 220px;
+
+}
+.barra_menu_front {
+    
+    background: #31BA3F;
+    
+}
+.barra_menu_fundo{
+    position: relative;
+    height: 60px;
+    left: 0px;
+    top: -5px;
+    background: #31ba3f7e;
+}
+/*tudo OK*/
+
+.header ul li{
+    display: inline;
+    justify-content: space-between;
+    width: calc(100%/6); /* responsavel por espaçamento*/
+    float: left; /* coloca os atributos um ao lado do outro */
+    line-height: 40px;
+    font-size: 15px;
+}
+.header a{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: black;
+}
+
+.header ul li a:hover{
+    color:white;
+}
+
+.header ul {
+    padding: 0;
+}
+
+.header ul ul {
+    display: inline;
+    justify-content: space-between;
+
+    width: calc(100%/2); /* responsavel por espaçamento*/
+    float: left; /* coloca os atributos um ao lado do outro */
+    display: none;
+    background-color: #31BA3F;
+    
+}
+
+.header ul li:hover > ul{
+    display: block;
+    position: absolute;
+}
+
+
+.main { 
+    display: flex; 
+    margin: auto;
+    justify-content: center; 
+       
+ }
+ .borda_main{
+    margin-left: 11%;
+    position: absolute;
+    width: 1382px;
+    height: 50px;
+    left: 0px;
+    bottom: 400px;
+    background: #31BA3F;
+ }
+.main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;/*Altura das letras*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: black;
+}
+.main h1:hover{
+    color:white;
+}
+
+.main p{
+    position: absolute;
+    width: 700px; 
+    bottom: -250px;
+    margin-left: 600px;
+    margin-right: auto; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+.borda_main_2{
+    margin-left: 11%;
+    position: absolute;
+    width: 1382px;
+    height: 50px;
+    left: 0px;
+    bottom: 20px;
+    background: #31BA3F;
+ }
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 39px;
+}
+textarea{
+    height: 150px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 1000px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    left: 0px;
+
+    background-color: #31BA3F;
+    background-attachment: fixed;
+
+    color: black; 
+
+}
+.footer address { 
+    margin-top: 50px;
+    font-weight: 300; 
+    overflow: auto; 
+}
+.footer address a { font-weight: 400; color: black; }
+.footer address a:hover{
+    color:white;
+}
+
+.footer p {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 39px; 
+
+}
